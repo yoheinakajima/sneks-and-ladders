@@ -8,7 +8,7 @@ This is the code-base for the Discord based game, Sneks and Ladders, as used for
 Written entirely in Python, pulls attributes from PixelBeasts from a csv file, runs as a discord bot, and saves results into a csv.
 
 # log_season1
-log_season1.csv is the log file for the first season of Sneks and Ladders. We had a total of 245 beasties roll 622 times. Winner was PixelBeast #2487.
+log_game1.csv is the log file for the first season of Sneks and Ladders. We had a total of 245 beasties roll 622 times. Winner was PixelBeast #2487.
 
 # game details (from game lobby)
 
