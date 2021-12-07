@@ -245,6 +245,9 @@ async def race_function(ctx, *args):
 
         row = [0,player1,move,date,time,new_position]
         rows.append(row)
+	webhook_url = ""; /*Zapier Webhook Goes here*/
+        data = { 'player': player1,'move': move,'date': date,'time': time,'new_position': new_position}
+        requests.post(webhook_url, data=json.dumps(data), headers={'Content-Type': 'application/json'})
 
     if ready == 0:
         print("not ready")
